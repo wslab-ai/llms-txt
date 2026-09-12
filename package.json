@@ -34,7 +34,7 @@
     }
   },
   "bin": {
-    "llms-txt": "./dist/cli.js"
+    "llms-txt": "dist/cli.js"
   },
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
