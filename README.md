@@ -1,4 +1,4 @@
-# @wslab-ai/llms-txt
+# @workstarlab/llms-txt
 
 A small, dependency-free TypeScript library and CLI for generating and validating [`llms.txt`](https://llmstxt.org/) files from structured JSON.
 
@@ -7,7 +7,7 @@ It helps teams keep human-readable AI discovery metadata in source control witho
 ## Install
 
 ```sh
-npm install --save-dev @wslab-ai/llms-txt
+npm install --save-dev @workstarlab/llms-txt
 ```
 
 ## CLI
@@ -46,7 +46,7 @@ npx llms-txt check-config llms.config.json
 ## Library
 
 ```ts
-import { generateLlmsTxt, validateLlmsDocument } from "@wslab-ai/llms-txt";
+import { generateLlmsTxt, validateLlmsDocument } from "@workstarlab/llms-txt";
 
 const result = validateLlmsDocument(config);
 if (!result.valid) throw new Error(JSON.stringify(result.errors));

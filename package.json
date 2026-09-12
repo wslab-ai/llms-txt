@@ -1,5 +1,5 @@
 {
-  "name": "@wslab-ai/llms-txt",
+  "name": "@workstarlab/llms-txt",
   "version": "0.1.0",
   "description": "Typed llms.txt generator and validator for websites and documentation portals.",
   "type": "module",
@@ -46,8 +46,7 @@
     "prepublishOnly": "npm run verify"
   },
   "publishConfig": {
-    "access": "public",
-    "provenance": true
+    "access": "public"
   },
   "devDependencies": {
     "@types/node": "^22.18.6",
